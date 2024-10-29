@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="28sp"/>
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"/>
+
+    <TextView
+        android:id="@+id/bookDescription"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:text="TextView"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/addToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_cart"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
